@@ -34,6 +34,7 @@ module SolrWrapper
     # @option options [Hash] :solr_options
     # @option options [Hash] :env
     # @option options [String] :config
+    # @option options [Boolean] :force
     def initialize(options = {})
       @config = Settings.new(Configuration.new(options))
     end

@@ -150,6 +150,10 @@ module SolrWrapper
       options.fetch(:poll_interval, 1)
     end
 
+    def force?
+      options.fetch(:force, false)
+    end
+
     private
 
       def self.slice(source, *keys)
