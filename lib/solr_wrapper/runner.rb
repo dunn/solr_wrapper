@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module SolrWrapper
   # An abstract class for running commands in the shell
   class Runner
